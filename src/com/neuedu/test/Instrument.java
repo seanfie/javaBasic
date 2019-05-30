@@ -1,5 +1,11 @@
 package com.neuedu.test;
+/**
+ *
+ 定义一个乐器类 Instrument 有乐器演奏方法play（）
+ 子类Wind 和Brass类 对乐器类演奏方法进行方法重写 定义自己的演奏方式
+ 3 创建main方法 进行测试
 
+ * */
 public class Instrument {
     private String name;
 
@@ -8,31 +14,8 @@ public class Instrument {
     }
 
 }
-//public class Wind extends Instrument {
-//
-//    @Override
-//    public void play() {
-//        System.out.println("正在用Wind演奏");
-//    }
-//}
-//public class Brass extends Instrument {
-//
-//    @Override
-//    public void play() {
-//        System.out.println("正在用Brass演奏");
-//    }
-//}
-//public class InstrumentTest {
-//
-//    public static void main(String[] args) {
-//        Wind wind=new Wind();
-//        wind.play();
-//
-//        System.out.println();
-//
-//        Brass brass=new Brass();
-//        brass.play();
-//    }
-//}
+
+
+
 
 
