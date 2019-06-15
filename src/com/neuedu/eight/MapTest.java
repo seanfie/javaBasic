@@ -10,7 +10,7 @@ public class MapTest {
         map.put(2, "周芷若");
         map.put(3, "汪峰");
         map.put(4, "灭绝师太");
-//1.打印集合
+       //1.打印集合
         for(Map.Entry<Integer,String> entry:map.entrySet()){
             System.out.println(entry.getKey()+ " "+ entry.getValue());
         }
